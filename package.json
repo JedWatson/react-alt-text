@@ -1,0 +1,38 @@
+{
+  "name": "react-alt-text",
+  "version": "1.0.0",
+  "description": "React.js Component for displaying alternate text when the [alt] key is pressed",
+  "main": "lib/AltText.js",
+  "author": "Jed Watson",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JedWatson/react-alt-text.git"
+  },
+  "dependencies": {
+    "vkey": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^3.1.1",
+    "eslint": "^0.21.0",
+    "eslint-plugin-react": "^2.2.0",
+    "react": ">=0.12.0"
+  },
+  "peerDependencies": {
+    "react": ">=0.12.0"
+  },
+  "browserify-shim": {
+    "react": "global:React"
+  },
+  "scripts": {
+    "test": "echo \"no tests yet\" && exit 0",
+    "lint": "eslint ./; true"
+  },
+  "keywords": [
+    "react",
+    "react-component",
+    "alt",
+    "text",
+    "keypress"
+  ]
+}
