@@ -1,6 +1,6 @@
 {
   "name": "react-alt-text",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "React.js Component for displaying alternate text when the [alt] key is pressed",
   "main": "lib/AltText.js",
   "author": "Jed Watson",
